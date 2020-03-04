@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="quotes:war">
+    <output-path>$PROJECT_DIR$/quotes/target</output-path>
+    <root id="archive" name="quotes-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="quotes:war exploded" />
+    </root>
+  </artifact>
+</component>

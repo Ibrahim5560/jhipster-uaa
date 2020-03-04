@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jhipster-uaa.iml" filepath="$PROJECT_DIR$/jhipster-uaa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quotes/quotes.iml" filepath="$PROJECT_DIR$/quotes/quotes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uaa/uaa.iml" filepath="$PROJECT_DIR$/uaa/uaa.iml" />
+    </modules>
+  </component>
+</project>
