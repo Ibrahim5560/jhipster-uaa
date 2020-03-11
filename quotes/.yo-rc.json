@@ -8,7 +8,7 @@
     "applicationType": "microservice",
     "baseName": "quotes",
     "packageName": "com.isoft.jhipster.quotes",
-    "packageFolder": "com/baeldung/jhipster/quotes",
+    "packageFolder": "com/isoft/jhipster/quotes",
     "serverPort": "8081",
     "authenticationType": "uaa",
     "uaaBaseName": "uaa",

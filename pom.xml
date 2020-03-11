@@ -3,12 +3,13 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>jhipster-uaa</artifactId>
-    <groupId>com.isoft.jhipster</groupId>
+    <groupId>com.isoft</groupId>
     <version>1.0.0-SNAPSHOT</version>
     <name>jhipster-uaa</name>
     <packaging>pom</packaging>
 
     <modules>
+        <module>quiz-master-service</module>
         <module>uaa</module>
         <module>gateway</module>
 		<module>quotes</module>

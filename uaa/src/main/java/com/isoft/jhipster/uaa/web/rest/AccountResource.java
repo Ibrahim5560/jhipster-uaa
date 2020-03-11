@@ -106,6 +106,19 @@ public class AccountResource {
             .map(UserDTO::new)
             .orElseThrow(() -> new InternalServerErrorException("User could not be found"));
     }
+    /**
+     * GET  /account : get the current user.
+     *
+     * @return the current user
+     * @throws RuntimeException 500 (Internal Server Error) if the user couldn't be returned
+     */
+    @GetMapping("/account/{userId}")
+    @Timed
+    public UserDTO getAccount(@PathVariable("userId") String userId) {
+        return userService.getUserWithAuthorities(userId)
+            .map(UserDTO::new)
+            .orElseThrow(() -> new InternalServerErrorException("User could not be found"));
+    }
 
     /**
      * POST  /account : update the current user information.

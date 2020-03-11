@@ -1,0 +1,900 @@
+2020-03-11 09:09:22.057  INFO 23200 --- [restartedMain] com.isoft.jhipster.gateway.GatewayApp    : The following profiles are active: dev,swagger
+2020-03-11 09:09:28.506 DEBUG 23200 --- [restartedMain] c.i.j.gateway.config.AsyncConfiguration  : Creating Async Task Executor
+2020-03-11 09:09:29.627 DEBUG 23200 --- [restartedMain] c.i.j.g.config.MetricsConfiguration      : Registering JVM gauges
+2020-03-11 09:09:29.649 DEBUG 23200 --- [restartedMain] c.i.j.g.config.MetricsConfiguration      : Monitoring the datasource
+2020-03-11 09:09:29.655 DEBUG 23200 --- [restartedMain] c.i.j.g.config.MetricsConfiguration      : Initializing Metrics JMX reporting
+2020-03-11 09:09:33.911  WARN 23200 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-03-11 09:09:33.993 DEBUG 23200 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Registering CORS filter
+2020-03-11 09:09:34.205  INFO 23200 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Web application configuration, using profiles: dev
+2020-03-11 09:09:34.206 DEBUG 23200 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Initializing Metrics registries
+2020-03-11 09:09:34.210 DEBUG 23200 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Registering Metrics Filter
+2020-03-11 09:09:34.211 DEBUG 23200 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Registering Metrics Servlet
+2020-03-11 09:09:34.214 DEBUG 23200 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Initialize H2 console
+2020-03-11 09:09:34.215  INFO 23200 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Web application fully configured
+2020-03-11 09:09:34.353 DEBUG 23200 --- [restartedMain] c.i.j.gateway.config.CacheConfiguration  : Configuring Hazelcast
+2020-03-11 09:09:34.455 DEBUG 23200 --- [restartedMain] c.i.j.gateway.config.CacheConfiguration  : Configuring Hazelcast clustering for instanceId: gateway
+2020-03-11 09:09:34.456 DEBUG 23200 --- [restartedMain] c.i.j.gateway.config.CacheConfiguration  : Application is running with the "dev" profile, Hazelcast cluster will only work with localhost instances
+2020-03-11 09:09:34.560  INFO 23200 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-03-11 09:09:35.062  INFO 23200 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-03-11 09:09:35.062  INFO 23200 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-03-11 09:09:35.251  INFO 23200 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-03-11 09:09:35.251  INFO 23200 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-03-11 09:09:35.590  INFO 23200 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-11 09:09:35.874  INFO 23200 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-03-11 09:09:35.874  INFO 23200 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-03-11 09:09:35.874  INFO 23200 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-03-11 09:09:35.874  INFO 23200 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-03-11 09:09:35.874  INFO 23200 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-03-11 09:09:35.874  INFO 23200 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-03-11 09:09:35.874  INFO 23200 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-03-11 09:09:36.173  INFO 23200 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-03-11 09:09:36.178  INFO 23200 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 5
+2020-03-11 09:09:36.184  INFO 23200 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 12
+2020-03-11 09:09:36.190  INFO 23200 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1583910576188 with initial instances count: 0
+2020-03-11 09:09:36.362  INFO 23200 --- [restartedMain] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [3.9.4] Picked [127.0.0.1]:13881, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=13881], bind any local is true
+2020-03-11 09:09:36.396  INFO 23200 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13881 [dev] [3.9.4] Hazelcast 3.9.4 (20180420 - b8001d5) starting at [127.0.0.1]:13881
+2020-03-11 09:09:36.398  INFO 23200 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13881 [dev] [3.9.4] Copyright (c) 2008-2018, Hazelcast, Inc. All Rights Reserved.
+2020-03-11 09:09:36.398  INFO 23200 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13881 [dev] [3.9.4] Configured Hazelcast Serialization version: 1
+2020-03-11 09:09:36.900  INFO 23200 --- [restartedMain] c.h.s.i.o.impl.BackpressureRegulator     : [127.0.0.1]:13881 [dev] [3.9.4] Backpressure is disabled
+2020-03-11 09:09:38.141  INFO 23200 --- [restartedMain] com.hazelcast.instance.Node              : [127.0.0.1]:13881 [dev] [3.9.4] Creating TcpIpJoiner
+2020-03-11 09:09:38.352  INFO 23200 --- [restartedMain] c.h.s.i.o.impl.OperationExecutorImpl     : [127.0.0.1]:13881 [dev] [3.9.4] Starting 4 partition threads and 3 generic threads (1 dedicated for priority tasks)
+2020-03-11 09:09:38.353  INFO 23200 --- [restartedMain] c.h.internal.diagnostics.Diagnostics     : [127.0.0.1]:13881 [dev] [3.9.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2020-03-11 09:09:38.379  INFO 23200 --- [restartedMain] com.hazelcast.core.LifecycleService      : [127.0.0.1]:13881 [dev] [3.9.4] [127.0.0.1]:13881 is STARTING
+2020-03-11 09:09:38.412  INFO 23200 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13881 [dev] [3.9.4] Cluster version set to 3.9
+2020-03-11 09:09:38.414  INFO 23200 --- [restartedMain] c.h.internal.cluster.ClusterService      : [127.0.0.1]:13881 [dev] [3.9.4] 
+
+Members {size:1, ver:1} [
+	Member [127.0.0.1]:13881 - 5934a7ef-6493-4777-8a69-8ea837196e4a this
+]
+
+2020-03-11 09:09:38.449  INFO 23200 --- [restartedMain] com.hazelcast.core.LifecycleService      : [127.0.0.1]:13881 [dev] [3.9.4] [127.0.0.1]:13881 is STARTED
+2020-03-11 09:09:38.495 DEBUG 23200 --- [restartedMain] c.i.j.gateway.config.CacheConfiguration  : Starting HazelcastCacheManager
+2020-03-11 09:09:38.775 DEBUG 23200 --- [restartedMain] c.i.j.g.config.LiquibaseConfiguration    : Configuring Liquibase
+2020-03-11 09:09:39.103  WARN 23200 --- [gateway-Executor-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Starting Liquibase asynchronously, your database might not be ready at startup!
+2020-03-11 09:09:40.588 DEBUG 23200 --- [gateway-Executor-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Liquibase has updated your database in 1483 ms
+2020-03-11 09:09:40.835  INFO 23200 --- [restartedMain] c.h.h.HazelcastCacheRegionFactory        : Starting up HazelcastCacheRegionFactory
+2020-03-11 09:09:40.839  INFO 23200 --- [restartedMain] c.h.h.i.IHazelcastInstanceFactory        : Using existing HazelcastInstance [gateway].
+2020-03-11 09:09:41.372  INFO 23200 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:1575af6ff6c19b6d9af772293eabfa34 - Re-registering apps/GATEWAY
+2020-03-11 09:09:41.373  INFO 23200 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:1575af6ff6c19b6d9af772293eabfa34: registering service...
+2020-03-11 09:09:41.683  INFO 23200 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:1575af6ff6c19b6d9af772293eabfa34 - registration status: 204
+2020-03-11 09:09:46.158  WARN 23200 --- [restartedMain] c.i.j.g.s.o.UaaSignatureVerifierClient   : could not contact UAA to get public key
+2020-03-11 09:09:46.284  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-03-11 09:09:47.548  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-03-11 09:09:47.549  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-03-11 09:09:47.550  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-03-11 09:09:47.552  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-03-11 09:09:47.553  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2020-03-11 09:09:47.553  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-03-11 09:09:47.657  WARN 23200 --- [restartedMain] o.s.s.o.p.t.s.JwtAccessTokenConverter    : Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2020-03-11 09:09:47.827  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-03-11 09:09:50.757 DEBUG 23200 --- [restartedMain] c.i.j.g.config.DatabaseConfiguration     : Starting H2 database
+2020-03-11 09:09:51.519  WARN 23200 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-03-11 09:09:53.188 DEBUG 23200 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Starting Swagger
+2020-03-11 09:09:53.213 DEBUG 23200 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Started Swagger in 24 ms
+2020-03-11 09:09:56.060  INFO 23200 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1583910596060, current=UP, previous=STARTING]
+2020-03-11 09:09:56.062  INFO 23200 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:1575af6ff6c19b6d9af772293eabfa34: registering service...
+2020-03-11 09:09:56.221  INFO 23200 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:1575af6ff6c19b6d9af772293eabfa34 - registration status: 204
+2020-03-11 09:09:56.620  INFO 23200 --- [restartedMain] com.isoft.jhipster.gateway.GatewayApp    : Started GatewayApp in 40.66 seconds (JVM running for 46.252)
+2020-03-11 09:09:56.636  INFO 23200 --- [restartedMain] com.isoft.jhipster.gateway.GatewayApp    : 
+----------------------------------------------------------
+	Application 'gateway' is running! Access URLs:
+	Local: 		http://localhost:8180/
+	External: 	http://192.168.1.73:8180/
+	Profile(s): 	[dev, swagger]
+----------------------------------------------------------
+2020-03-11 09:09:56.636  INFO 23200 --- [restartedMain] com.isoft.jhipster.gateway.GatewayApp    : 
+----------------------------------------------------------
+	Config Server: 	Connected to the JHipster Registry config server!
+----------------------------------------------------------
+2020-03-11 09:09:59.366  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-03-11 09:09:59.366  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-03-11 09:09:59.366  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-03-11 09:09:59.366  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-03-11 09:09:59.366  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-03-11 09:09:59.366  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2020-03-11 09:09:59.366  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-03-11 09:09:59.587  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-03-11 09:10:00.185  WARN 23200 --- [XNIO-2 task-1] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
+2020-03-11 09:10:11.744  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-03-11 09:10:11.745  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-03-11 09:10:11.746  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-03-11 09:10:11.747  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-03-11 09:10:11.748  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-03-11 09:10:11.748  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2020-03-11 09:10:11.751  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-03-11 09:10:12.107  INFO 23200 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-03-11 09:10:14.908  WARN 23200 --- [XNIO-2 task-5] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
+2020-03-11 09:10:23.229  INFO 23200 --- [hz.gateway.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [127.0.0.1]:13881 [dev] [3.9.4] processors=4, physical.memory.total=15.9G, physical.memory.free=6.3G, swap.space.total=26.7G, swap.space.free=13.5G, heap.memory.used=376.0M, heap.memory.free=1.1G, heap.memory.total=1.4G, heap.memory.max=3.5G, heap.memory.used/total=25.60%, heap.memory.used/max=10.39%, minor.gc.count=14, minor.gc.time=337ms, major.gc.count=3, major.gc.time=416ms, load.process=23.42%, load.system=71.25%, load.systemAverage=n/a thread.count=88, thread.peakCount=88, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2020-03-11 09:10:43.508  INFO 23200 --- [hz.gateway.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [127.0.0.1]:13881 [dev] [3.9.4] processors=4, physical.memory.total=15.9G, physical.memory.free=5.7G, swap.space.total=26.7G, swap.space.free=12.5G, heap.memory.used=389.3M, heap.memory.free=1.1G, heap.memory.total=1.4G, heap.memory.max=3.5G, heap.memory.used/total=26.51%, heap.memory.used/max=10.76%, minor.gc.count=14, minor.gc.time=337ms, major.gc.count=3, major.gc.time=416ms, load.process=0.60%, load.system=96.43%, load.systemAverage=n/a thread.count=88, thread.peakCount=88, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2020-03-11 09:11:03.890  INFO 23200 --- [hz.gateway.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [127.0.0.1]:13881 [dev] [3.9.4] processors=4, physical.memory.total=15.9G, physical.memory.free=5.5G, swap.space.total=26.7G, swap.space.free=12.7G, heap.memory.used=395.8M, heap.memory.free=1.0G, heap.memory.total=1.4G, heap.memory.max=3.5G, heap.memory.used/total=26.96%, heap.memory.used/max=10.94%, minor.gc.count=14, minor.gc.time=337ms, major.gc.count=3, major.gc.time=416ms, load.process=0.57%, load.system=81.62%, load.systemAverage=n/a thread.count=87, thread.peakCount=88, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2020-03-11 09:14:31.249  WARN 23200 --- [Thread-3] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1583910871249, current=DOWN, previous=UP]
+2020-03-11 09:14:31.254  WARN 23200 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1583910871254, current=UP, previous=DOWN]
+2020-03-11 09:14:31.254  INFO 23200 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:1575af6ff6c19b6d9af772293eabfa34: registering service...
+2020-03-11 09:14:31.301  WARN 23200 --- [Thread-3] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-03-11 09:14:31.344  INFO 23200 --- [Thread-3] c.i.j.gateway.config.CacheConfiguration  : Closing Cache Manager
+2020-03-11 09:14:31.351  INFO 23200 --- [Thread-3] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-03-11 09:14:31.359  WARN 23200 --- [Thread-3] .s.c.a.CommonAnnotationBeanPostProcessor : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2020-03-11 09:14:32.022  INFO 23200 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:1575af6ff6c19b6d9af772293eabfa34 - registration status: 204
+2020-03-11 09:14:32.261  WARN 23200 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration': Unexpected exception during bean creation; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.core.env.ConfigurableEnvironment' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:508)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:767)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:353)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:350)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:672)
+	at com.netflix.appinfo.ApplicationInfoManager$$EnhancerBySpringCGLIB$$1e2321ed.refreshDataCenterInfoIfRequired(<generated>)
+	at com.netflix.discovery.DiscoveryClient.refreshInstanceInfo(DiscoveryClient.java:1377)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.core.env.ConfigurableEnvironment' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1506)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1101)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:767)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:136)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1267)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1112)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	... 42 common frames omitted
+
+2020-03-11 09:19:43.927  INFO 23288 --- [restartedMain] com.isoft.jhipster.gateway.GatewayApp    : The following profiles are active: dev,swagger
+2020-03-11 09:19:55.899 DEBUG 23288 --- [restartedMain] c.i.j.gateway.config.AsyncConfiguration  : Creating Async Task Executor
+2020-03-11 09:19:58.983 DEBUG 23288 --- [restartedMain] c.i.j.g.config.MetricsConfiguration      : Registering JVM gauges
+2020-03-11 09:19:59.256 DEBUG 23288 --- [restartedMain] c.i.j.g.config.MetricsConfiguration      : Monitoring the datasource
+2020-03-11 09:19:59.282 DEBUG 23288 --- [restartedMain] c.i.j.g.config.MetricsConfiguration      : Initializing Metrics JMX reporting
+2020-03-11 09:20:11.269  WARN 23288 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-03-11 09:20:11.486 DEBUG 23288 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Registering CORS filter
+2020-03-11 09:20:11.916  INFO 23288 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Web application configuration, using profiles: dev
+2020-03-11 09:20:11.920 DEBUG 23288 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Initializing Metrics registries
+2020-03-11 09:20:11.927 DEBUG 23288 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Registering Metrics Filter
+2020-03-11 09:20:11.928 DEBUG 23288 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Registering Metrics Servlet
+2020-03-11 09:20:11.933 DEBUG 23288 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Initialize H2 console
+2020-03-11 09:20:11.935  INFO 23288 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Web application fully configured
+2020-03-11 09:20:12.196 DEBUG 23288 --- [restartedMain] c.i.j.gateway.config.CacheConfiguration  : Configuring Hazelcast
+2020-03-11 09:20:12.249 DEBUG 23288 --- [restartedMain] c.i.j.gateway.config.CacheConfiguration  : Configuring Hazelcast clustering for instanceId: gateway
+2020-03-11 09:20:12.253 DEBUG 23288 --- [restartedMain] c.i.j.gateway.config.CacheConfiguration  : Application is running with the "dev" profile, Hazelcast cluster will only work with localhost instances
+2020-03-11 09:20:12.413  INFO 23288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-03-11 09:20:13.270  INFO 23288 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-03-11 09:20:13.271  INFO 23288 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-03-11 09:20:14.281  INFO 23288 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-03-11 09:20:14.281  INFO 23288 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-03-11 09:20:15.407  INFO 23288 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-11 09:20:16.716  INFO 23288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-03-11 09:20:16.719  INFO 23288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-03-11 09:20:16.719  INFO 23288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-03-11 09:20:16.719  INFO 23288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-03-11 09:20:16.719  INFO 23288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-03-11 09:20:16.719  INFO 23288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-03-11 09:20:16.719  INFO 23288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-03-11 09:20:17.312  INFO 23288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-03-11 09:20:17.318  INFO 23288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 5
+2020-03-11 09:20:17.324  INFO 23288 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 12
+2020-03-11 09:20:17.332  INFO 23288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1583911217330 with initial instances count: 0
+2020-03-11 09:20:17.484  INFO 23288 --- [restartedMain] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [3.9.4] Picked [127.0.0.1]:13881, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=13881], bind any local is true
+2020-03-11 09:20:17.504  INFO 23288 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13881 [dev] [3.9.4] Hazelcast 3.9.4 (20180420 - b8001d5) starting at [127.0.0.1]:13881
+2020-03-11 09:20:17.504  INFO 23288 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13881 [dev] [3.9.4] Copyright (c) 2008-2018, Hazelcast, Inc. All Rights Reserved.
+2020-03-11 09:20:17.505  INFO 23288 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13881 [dev] [3.9.4] Configured Hazelcast Serialization version: 1
+2020-03-11 09:20:18.404  INFO 23288 --- [restartedMain] c.h.s.i.o.impl.BackpressureRegulator     : [127.0.0.1]:13881 [dev] [3.9.4] Backpressure is disabled
+2020-03-11 09:20:20.248  INFO 23288 --- [restartedMain] com.hazelcast.instance.Node              : [127.0.0.1]:13881 [dev] [3.9.4] Creating TcpIpJoiner
+2020-03-11 09:20:20.633  INFO 23288 --- [restartedMain] c.h.s.i.o.impl.OperationExecutorImpl     : [127.0.0.1]:13881 [dev] [3.9.4] Starting 4 partition threads and 3 generic threads (1 dedicated for priority tasks)
+2020-03-11 09:20:20.638  INFO 23288 --- [restartedMain] c.h.internal.diagnostics.Diagnostics     : [127.0.0.1]:13881 [dev] [3.9.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2020-03-11 09:20:20.671  INFO 23288 --- [restartedMain] com.hazelcast.core.LifecycleService      : [127.0.0.1]:13881 [dev] [3.9.4] [127.0.0.1]:13881 is STARTING
+2020-03-11 09:20:20.716  INFO 23288 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13881 [dev] [3.9.4] Cluster version set to 3.9
+2020-03-11 09:20:20.718  INFO 23288 --- [restartedMain] c.h.internal.cluster.ClusterService      : [127.0.0.1]:13881 [dev] [3.9.4] 
+
+Members {size:1, ver:1} [
+	Member [127.0.0.1]:13881 - bf202998-5321-4b83-9b79-ebcea3ff1326 this
+]
+
+2020-03-11 09:20:20.781  INFO 23288 --- [restartedMain] com.hazelcast.core.LifecycleService      : [127.0.0.1]:13881 [dev] [3.9.4] [127.0.0.1]:13881 is STARTED
+2020-03-11 09:20:20.866 DEBUG 23288 --- [restartedMain] c.i.j.gateway.config.CacheConfiguration  : Starting HazelcastCacheManager
+2020-03-11 09:20:21.312 DEBUG 23288 --- [restartedMain] c.i.j.g.config.LiquibaseConfiguration    : Configuring Liquibase
+2020-03-11 09:20:21.648  WARN 23288 --- [gateway-Executor-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Starting Liquibase asynchronously, your database might not be ready at startup!
+2020-03-11 09:20:21.939  INFO 23288 --- [hz.gateway.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [127.0.0.1]:13881 [dev] [3.9.4] processors=4, physical.memory.total=15.9G, physical.memory.free=5.2G, swap.space.total=26.7G, swap.space.free=11.1G, heap.memory.used=263.7M, heap.memory.free=752.8M, heap.memory.total=1016.5M, heap.memory.max=3.5G, heap.memory.used/total=25.95%, heap.memory.used/max=7.29%, minor.gc.count=13, minor.gc.time=391ms, major.gc.count=3, major.gc.time=834ms, load.process=48.96%, load.system=100.00%, load.systemAverage=n/a thread.count=57, thread.peakCount=57, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2020-03-11 09:20:22.606  INFO 23288 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:3aa30bd27bfa04acf7aecc010655b7f5 - Re-registering apps/GATEWAY
+2020-03-11 09:20:22.608  INFO 23288 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:3aa30bd27bfa04acf7aecc010655b7f5: registering service...
+2020-03-11 09:20:22.897  INFO 23288 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:3aa30bd27bfa04acf7aecc010655b7f5 - registration status: 204
+2020-03-11 09:20:23.708 DEBUG 23288 --- [gateway-Executor-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Liquibase has updated your database in 2058 ms
+2020-03-11 09:20:23.995  INFO 23288 --- [restartedMain] c.h.h.HazelcastCacheRegionFactory        : Starting up HazelcastCacheRegionFactory
+2020-03-11 09:20:23.999  INFO 23288 --- [restartedMain] c.h.h.i.IHazelcastInstanceFactory        : Using existing HazelcastInstance [gateway].
+2020-03-11 09:20:27.349  INFO 23288 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-03-11 09:20:27.349  INFO 23288 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-03-11 09:20:27.349  INFO 23288 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-03-11 09:20:27.350  INFO 23288 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-03-11 09:20:27.351  INFO 23288 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-03-11 09:20:27.351  INFO 23288 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2020-03-11 09:20:27.351  INFO 23288 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-03-11 09:20:27.453  WARN 23288 --- [restartedMain] c.i.j.g.s.o.UaaSignatureVerifierClient   : could not contact UAA to get public key
+2020-03-11 09:20:27.483  WARN 23288 --- [restartedMain] o.s.s.o.p.t.s.JwtAccessTokenConverter    : Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2020-03-11 09:20:27.612  INFO 23288 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-03-11 09:20:34.198 DEBUG 23288 --- [restartedMain] c.i.j.g.config.DatabaseConfiguration     : Starting H2 database
+2020-03-11 09:20:35.356  WARN 23288 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-03-11 09:20:37.811  INFO 23288 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-03-11 09:20:37.811  INFO 23288 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-03-11 09:20:37.811  INFO 23288 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-03-11 09:20:37.811  INFO 23288 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-03-11 09:20:37.811  INFO 23288 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-03-11 09:20:37.811  INFO 23288 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2020-03-11 09:20:37.812  INFO 23288 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-03-11 09:20:38.024  INFO 23288 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-03-11 09:20:39.408 DEBUG 23288 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Starting Swagger
+2020-03-11 09:20:39.441 DEBUG 23288 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Started Swagger in 33 ms
+2020-03-11 09:20:42.117  INFO 23288 --- [hz.gateway.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [127.0.0.1]:13881 [dev] [3.9.4] processors=4, physical.memory.total=15.9G, physical.memory.free=5.0G, swap.space.total=26.7G, swap.space.free=11.3G, heap.memory.used=117.0M, heap.memory.free=1.1G, heap.memory.total=1.2G, heap.memory.max=3.5G, heap.memory.used/total=9.46%, heap.memory.used/max=3.23%, minor.gc.count=14, minor.gc.time=447ms, major.gc.count=3, major.gc.time=834ms, load.process=22.14%, load.system=98.47%, load.systemAverage=n/a thread.count=62, thread.peakCount=63, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2020-03-11 09:20:45.718  INFO 23288 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1583911245718, current=UP, previous=STARTING]
+2020-03-11 09:20:45.724  INFO 23288 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:3aa30bd27bfa04acf7aecc010655b7f5: registering service...
+2020-03-11 09:20:45.896  INFO 23288 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:3aa30bd27bfa04acf7aecc010655b7f5 - registration status: 204
+2020-03-11 09:20:46.343  INFO 23288 --- [restartedMain] com.isoft.jhipster.gateway.GatewayApp    : Started GatewayApp in 75.703 seconds (JVM running for 82.63)
+2020-03-11 09:20:46.377  INFO 23288 --- [restartedMain] com.isoft.jhipster.gateway.GatewayApp    : 
+----------------------------------------------------------
+	Application 'gateway' is running! Access URLs:
+	Local: 		http://localhost:8180/
+	External: 	http://192.168.1.73:8180/
+	Profile(s): 	[dev, swagger]
+----------------------------------------------------------
+2020-03-11 09:20:46.378  INFO 23288 --- [restartedMain] com.isoft.jhipster.gateway.GatewayApp    : 
+----------------------------------------------------------
+	Config Server: 	Connected to the JHipster Registry config server!
+----------------------------------------------------------
+2020-03-11 09:20:46.969  WARN 23288 --- [XNIO-2 task-1] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
+2020-03-11 09:20:52.590  WARN 23288 --- [XNIO-2 task-5] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
+2020-03-11 09:21:01.316  WARN 23288 --- [XNIO-2 task-13] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
+2020-03-11 09:21:01.337 DEBUG 23288 --- [XNIO-2 task-13] c.i.j.gateway.aop.logging.LoggingAspect  : Enter: com.isoft.jhipster.gateway.web.rest.AuthResource.authenticate() with argument[s] = [SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ HttpServletRequestImpl [ POST /auth/login ]]], com.codahale.metrics.servlet.AbstractInstrumentedFilter$StatusExposingServletResponse@380974b2, {username=admin, password=admin}]
+2020-03-11 09:21:01.341 DEBUG 23288 --- [XNIO-2 task-13] j.g.s.o.OAuth2TokenEndpointClientAdapter : contacting OAuth2 token endpoint to login user: admin
+2020-03-11 09:21:01.385 ERROR 23288 --- [XNIO-2 task-13] c.i.j.gateway.aop.logging.LoggingAspect  : Exception in com.isoft.jhipster.gateway.web.rest.AuthResource.authenticate() with cause = 'NULL' and exception = 'No instances available for uaa'
+
+java.lang.IllegalStateException: No instances available for uaa
+	at org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient.execute(RibbonLoadBalancerClient.java:104)
+	at org.springframework.cloud.client.loadbalancer.RetryLoadBalancerInterceptor.lambda$intercept$0(RetryLoadBalancerInterceptor.java:76)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:287)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:180)
+	at org.springframework.cloud.client.loadbalancer.RetryLoadBalancerInterceptor.intercept(RetryLoadBalancerInterceptor.java:67)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:92)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:687)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:644)
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:430)
+	at com.isoft.jhipster.gateway.security.oauth2.OAuth2TokenEndpointClientAdapter.sendPasswordGrant(OAuth2TokenEndpointClientAdapter.java:54)
+	at com.isoft.jhipster.gateway.security.oauth2.OAuth2AuthenticationService.authenticate(OAuth2AuthenticationService.java:67)
+	at com.isoft.jhipster.gateway.web.rest.AuthResource.authenticate(AuthResource.java:51)
+	at com.isoft.jhipster.gateway.web.rest.AuthResource$$FastClassBySpringCGLIB$$ca900d99.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.isoft.jhipster.gateway.aop.logging.LoggingAspect.logAround(LoggingAspect.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at com.ryantenney.metrics.spring.TimedMethodInterceptor.invoke(TimedMethodInterceptor.java:48)
+	at com.ryantenney.metrics.spring.TimedMethodInterceptor.invoke(TimedMethodInterceptor.java:34)
+	at com.ryantenney.metrics.spring.AbstractMetricMethodInterceptor.invoke(AbstractMetricMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.isoft.jhipster.gateway.web.rest.AuthResource$$EnhancerBySpringCGLIB$$598a2ff3.authenticate(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at com.codahale.metrics.servlet.AbstractInstrumentedFilter.doFilter(AbstractInstrumentedFilter.java:111)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:176)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.isoft.jhipster.gateway.web.filter.RefreshTokenFilter.doFilter(RefreshTokenFilter.java:62)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:124)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:64)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:336)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-03-11 09:21:01.400 ERROR 23288 --- [XNIO-2 task-13] o.z.problem.spring.common.AdviceTrait    : Internal Server Error
+
+java.lang.IllegalStateException: No instances available for uaa
+	at org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient.execute(RibbonLoadBalancerClient.java:104)
+	at org.springframework.cloud.client.loadbalancer.RetryLoadBalancerInterceptor.lambda$intercept$0(RetryLoadBalancerInterceptor.java:76)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:287)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:180)
+	at org.springframework.cloud.client.loadbalancer.RetryLoadBalancerInterceptor.intercept(RetryLoadBalancerInterceptor.java:67)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:92)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:687)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:644)
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:430)
+	at com.isoft.jhipster.gateway.security.oauth2.OAuth2TokenEndpointClientAdapter.sendPasswordGrant(OAuth2TokenEndpointClientAdapter.java:54)
+	at com.isoft.jhipster.gateway.security.oauth2.OAuth2AuthenticationService.authenticate(OAuth2AuthenticationService.java:67)
+	at com.isoft.jhipster.gateway.web.rest.AuthResource.authenticate(AuthResource.java:51)
+	at com.isoft.jhipster.gateway.web.rest.AuthResource$$FastClassBySpringCGLIB$$ca900d99.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.isoft.jhipster.gateway.aop.logging.LoggingAspect.logAround(LoggingAspect.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at com.ryantenney.metrics.spring.TimedMethodInterceptor.invoke(TimedMethodInterceptor.java:48)
+	at com.ryantenney.metrics.spring.TimedMethodInterceptor.invoke(TimedMethodInterceptor.java:34)
+	at com.ryantenney.metrics.spring.AbstractMetricMethodInterceptor.invoke(AbstractMetricMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.isoft.jhipster.gateway.web.rest.AuthResource$$EnhancerBySpringCGLIB$$598a2ff3.authenticate(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at com.codahale.metrics.servlet.AbstractInstrumentedFilter.doFilter(AbstractInstrumentedFilter.java:111)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:176)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.isoft.jhipster.gateway.web.filter.RefreshTokenFilter.doFilter(RefreshTokenFilter.java:62)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:124)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:64)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:336)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-03-11 09:21:01.449  WARN 23288 --- [XNIO-2 task-13] .m.m.a.ExceptionHandlerExceptionResolver : Resolved exception caused by handler execution: java.lang.IllegalStateException: No instances available for uaa
+2020-03-11 09:21:02.167  INFO 23288 --- [hz.gateway.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [127.0.0.1]:13881 [dev] [3.9.4] processors=4, physical.memory.total=15.9G, physical.memory.free=4.9G, swap.space.total=26.7G, swap.space.free=11.2G, heap.memory.used=644.1M, heap.memory.free=591.9M, heap.memory.total=1.2G, heap.memory.max=3.5G, heap.memory.used/total=52.11%, heap.memory.used/max=17.80%, minor.gc.count=15, minor.gc.time=521ms, major.gc.count=3, major.gc.time=834ms, load.process=9.27%, load.system=72.58%, load.systemAverage=n/a thread.count=86, thread.peakCount=86, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2020-03-11 09:21:48.061 DEBUG 23288 --- [XNIO-2 task-20] c.i.j.g.g.a.AccessControlFilter          : Access Control: allowing access for /uaa/api/account, as no access control policy has been set up for service: uaa
+2020-03-11 09:23:43.028  INFO 23288 --- [hz.gateway.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [127.0.0.1]:13881 [dev] [3.9.4] processors=4, physical.memory.total=15.9G, physical.memory.free=4.9G, swap.space.total=26.7G, swap.space.free=11.2G, heap.memory.used=196.2M, heap.memory.free=1.3G, heap.memory.total=1.5G, heap.memory.max=3.5G, heap.memory.used/total=12.76%, heap.memory.used/max=5.42%, minor.gc.count=16, minor.gc.time=564ms, major.gc.count=4, major.gc.time=1223ms, load.process=0.58%, load.system=72.03%, load.systemAverage=n/a thread.count=96, thread.peakCount=101, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2020-03-11 09:24:03.110  INFO 23288 --- [hz.gateway.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [127.0.0.1]:13881 [dev] [3.9.4] processors=4, physical.memory.total=15.9G, physical.memory.free=4.8G, swap.space.total=26.7G, swap.space.free=11.2G, heap.memory.used=200.1M, heap.memory.free=1.3G, heap.memory.total=1.5G, heap.memory.max=3.5G, heap.memory.used/total=13.02%, heap.memory.used/max=5.53%, minor.gc.count=16, minor.gc.time=564ms, major.gc.count=4, major.gc.time=1223ms, load.process=0.78%, load.system=77.73%, load.systemAverage=n/a thread.count=96, thread.peakCount=101, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2020-03-11 09:24:44.572  INFO 23288 --- [hz.gateway.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [127.0.0.1]:13881 [dev] [3.9.4] processors=4, physical.memory.total=15.9G, physical.memory.free=5.0G, swap.space.total=26.7G, swap.space.free=10.8G, heap.memory.used=215.8M, heap.memory.free=1.3G, heap.memory.total=1.5G, heap.memory.max=3.5G, heap.memory.used/total=14.04%, heap.memory.used/max=5.97%, minor.gc.count=16, minor.gc.time=564ms, major.gc.count=4, major.gc.time=1223ms, load.process=1.31%, load.system=100.00%, load.systemAverage=n/a thread.count=96, thread.peakCount=101, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2020-03-11 09:25:04.651  INFO 23288 --- [hz.gateway.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [127.0.0.1]:13881 [dev] [3.9.4] processors=4, physical.memory.total=15.9G, physical.memory.free=4.3G, swap.space.total=26.7G, swap.space.free=10.0G, heap.memory.used=223.6M, heap.memory.free=1.3G, heap.memory.total=1.5G, heap.memory.max=3.5G, heap.memory.used/total=14.54%, heap.memory.used/max=6.18%, minor.gc.count=16, minor.gc.time=564ms, major.gc.count=4, major.gc.time=1223ms, load.process=0.36%, load.system=71.66%, load.systemAverage=n/a thread.count=98, thread.peakCount=101, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2020-03-11 09:25:16.737  INFO 23288 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-11 09:25:40.421  WARN 23288 --- [Thread-2] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1583911540421, current=DOWN, previous=UP]
+2020-03-11 09:25:40.424  WARN 23288 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1583911540424, current=UP, previous=DOWN]
+2020-03-11 09:25:40.425  INFO 23288 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:3aa30bd27bfa04acf7aecc010655b7f5: registering service...
+2020-03-11 09:25:40.478  INFO 23288 --- [Thread-2] c.i.j.gateway.config.CacheConfiguration  : Closing Cache Manager
+2020-03-11 09:25:40.484  INFO 23288 --- [Thread-2] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-03-11 09:25:40.492  WARN 23288 --- [Thread-2] .s.c.a.CommonAnnotationBeanPostProcessor : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2020-03-11 09:25:41.255  INFO 23288 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:3aa30bd27bfa04acf7aecc010655b7f5 - registration status: 204
+2020-03-11 09:25:41.285  WARN 23288 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration': Unexpected exception during bean creation; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.core.env.ConfigurableEnvironment' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:508)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:767)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:353)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:350)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:672)
+	at com.netflix.appinfo.ApplicationInfoManager$$EnhancerBySpringCGLIB$$52709072.refreshDataCenterInfoIfRequired(<generated>)
+	at com.netflix.discovery.DiscoveryClient.refreshInstanceInfo(DiscoveryClient.java:1377)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.core.env.ConfigurableEnvironment' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1506)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1101)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:767)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:136)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1267)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1112)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	... 42 common frames omitted
+
+2020-03-11 09:56:00.054  INFO 19592 --- [restartedMain] com.isoft.jhipster.gateway.GatewayApp    : The following profiles are active: dev,swagger
+2020-03-11 09:56:11.371 DEBUG 19592 --- [restartedMain] c.i.j.gateway.config.AsyncConfiguration  : Creating Async Task Executor
+2020-03-11 09:56:14.165 DEBUG 19592 --- [restartedMain] c.i.j.g.config.MetricsConfiguration      : Registering JVM gauges
+2020-03-11 09:56:14.190 DEBUG 19592 --- [restartedMain] c.i.j.g.config.MetricsConfiguration      : Monitoring the datasource
+2020-03-11 09:56:14.198 DEBUG 19592 --- [restartedMain] c.i.j.g.config.MetricsConfiguration      : Initializing Metrics JMX reporting
+2020-03-11 09:56:23.488  WARN 19592 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-03-11 09:56:23.684 DEBUG 19592 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Registering CORS filter
+2020-03-11 09:56:24.006  INFO 19592 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Web application configuration, using profiles: dev
+2020-03-11 09:56:24.009 DEBUG 19592 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Initializing Metrics registries
+2020-03-11 09:56:24.015 DEBUG 19592 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Registering Metrics Filter
+2020-03-11 09:56:24.016 DEBUG 19592 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Registering Metrics Servlet
+2020-03-11 09:56:24.020 DEBUG 19592 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Initialize H2 console
+2020-03-11 09:56:24.022  INFO 19592 --- [restartedMain] c.i.j.gateway.config.WebConfigurer       : Web application fully configured
+2020-03-11 09:56:24.268 DEBUG 19592 --- [restartedMain] c.i.j.gateway.config.CacheConfiguration  : Configuring Hazelcast
+2020-03-11 09:56:24.325 DEBUG 19592 --- [restartedMain] c.i.j.gateway.config.CacheConfiguration  : Configuring Hazelcast clustering for instanceId: gateway
+2020-03-11 09:56:24.326 DEBUG 19592 --- [restartedMain] c.i.j.gateway.config.CacheConfiguration  : Application is running with the "dev" profile, Hazelcast cluster will only work with localhost instances
+2020-03-11 09:56:24.451  INFO 19592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-03-11 09:56:25.141  INFO 19592 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-03-11 09:56:25.141  INFO 19592 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-03-11 09:56:25.602  INFO 19592 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-03-11 09:56:25.604  INFO 19592 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-03-11 09:56:26.255  INFO 19592 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-11 09:56:27.108  INFO 19592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-03-11 09:56:27.109  INFO 19592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-03-11 09:56:27.109  INFO 19592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-03-11 09:56:27.109  INFO 19592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-03-11 09:56:27.109  INFO 19592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-03-11 09:56:27.109  INFO 19592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-03-11 09:56:27.110  INFO 19592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-03-11 09:56:27.718  INFO 19592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-03-11 09:56:27.727  INFO 19592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 5
+2020-03-11 09:56:27.734  INFO 19592 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 12
+2020-03-11 09:56:27.745  INFO 19592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1583913387742 with initial instances count: 1
+2020-03-11 09:56:27.914  INFO 19592 --- [restartedMain] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [3.9.4] Picked [127.0.0.1]:13881, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=13881], bind any local is true
+2020-03-11 09:56:27.935  INFO 19592 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13881 [dev] [3.9.4] Hazelcast 3.9.4 (20180420 - b8001d5) starting at [127.0.0.1]:13881
+2020-03-11 09:56:27.935  INFO 19592 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13881 [dev] [3.9.4] Copyright (c) 2008-2018, Hazelcast, Inc. All Rights Reserved.
+2020-03-11 09:56:27.935  INFO 19592 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13881 [dev] [3.9.4] Configured Hazelcast Serialization version: 1
+2020-03-11 09:56:28.926  INFO 19592 --- [restartedMain] c.h.s.i.o.impl.BackpressureRegulator     : [127.0.0.1]:13881 [dev] [3.9.4] Backpressure is disabled
+2020-03-11 09:56:31.304  INFO 19592 --- [restartedMain] com.hazelcast.instance.Node              : [127.0.0.1]:13881 [dev] [3.9.4] Creating TcpIpJoiner
+2020-03-11 09:56:31.625  INFO 19592 --- [restartedMain] c.h.s.i.o.impl.OperationExecutorImpl     : [127.0.0.1]:13881 [dev] [3.9.4] Starting 4 partition threads and 3 generic threads (1 dedicated for priority tasks)
+2020-03-11 09:56:31.626  INFO 19592 --- [restartedMain] c.h.internal.diagnostics.Diagnostics     : [127.0.0.1]:13881 [dev] [3.9.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2020-03-11 09:56:31.666  INFO 19592 --- [restartedMain] com.hazelcast.core.LifecycleService      : [127.0.0.1]:13881 [dev] [3.9.4] [127.0.0.1]:13881 is STARTING
+2020-03-11 09:56:31.724  INFO 19592 --- [restartedMain] com.hazelcast.system                     : [127.0.0.1]:13881 [dev] [3.9.4] Cluster version set to 3.9
+2020-03-11 09:56:31.725  INFO 19592 --- [restartedMain] c.h.internal.cluster.ClusterService      : [127.0.0.1]:13881 [dev] [3.9.4] 
+
+Members {size:1, ver:1} [
+	Member [127.0.0.1]:13881 - 8b09664a-ef09-4c07-b813-b5d0ae1052aa this
+]
+
+2020-03-11 09:56:31.792  INFO 19592 --- [restartedMain] com.hazelcast.core.LifecycleService      : [127.0.0.1]:13881 [dev] [3.9.4] [127.0.0.1]:13881 is STARTED
+2020-03-11 09:56:31.913 DEBUG 19592 --- [restartedMain] c.i.j.gateway.config.CacheConfiguration  : Starting HazelcastCacheManager
+2020-03-11 09:56:32.447 DEBUG 19592 --- [restartedMain] c.i.j.g.config.LiquibaseConfiguration    : Configuring Liquibase
+2020-03-11 09:56:32.946  WARN 19592 --- [gateway-Executor-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Starting Liquibase asynchronously, your database might not be ready at startup!
+2020-03-11 09:56:33.054  INFO 19592 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:eacf5c0afda2ab8c5cff9a68ba64a1b6 - Re-registering apps/GATEWAY
+2020-03-11 09:56:33.057  INFO 19592 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:eacf5c0afda2ab8c5cff9a68ba64a1b6: registering service...
+2020-03-11 09:56:33.375  INFO 19592 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:eacf5c0afda2ab8c5cff9a68ba64a1b6 - registration status: 204
+2020-03-11 09:56:33.441  INFO 19592 --- [hz.gateway.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [127.0.0.1]:13881 [dev] [3.9.4] processors=4, physical.memory.total=15.9G, physical.memory.free=4.5G, swap.space.total=26.7G, swap.space.free=10.6G, heap.memory.used=335.9M, heap.memory.free=919.6M, heap.memory.total=1.2G, heap.memory.max=3.5G, heap.memory.used/total=26.75%, heap.memory.used/max=9.28%, minor.gc.count=12, minor.gc.time=521ms, major.gc.count=3, major.gc.time=990ms, load.process=49.81%, load.system=100.00%, load.systemAverage=n/a thread.count=58, thread.peakCount=59, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2020-03-11 09:56:35.516 DEBUG 19592 --- [gateway-Executor-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Liquibase has updated your database in 2568 ms
+2020-03-11 09:56:36.035  INFO 19592 --- [restartedMain] c.h.h.HazelcastCacheRegionFactory        : Starting up HazelcastCacheRegionFactory
+2020-03-11 09:56:36.041  INFO 19592 --- [restartedMain] c.h.h.i.IHazelcastInstanceFactory        : Using existing HazelcastInstance [gateway].
+2020-03-11 09:56:38.696  WARN 19592 --- [restartedMain] c.i.j.g.s.o.UaaSignatureVerifierClient   : could not contact UAA to get public key
+2020-03-11 09:56:38.718  WARN 19592 --- [restartedMain] o.s.s.o.p.t.s.JwtAccessTokenConverter    : Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2020-03-11 09:56:43.591 DEBUG 19592 --- [restartedMain] c.i.j.g.config.DatabaseConfiguration     : Starting H2 database
+2020-03-11 09:56:44.915  WARN 19592 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-03-11 09:56:47.340 DEBUG 19592 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Starting Swagger
+2020-03-11 09:56:47.362 DEBUG 19592 --- [restartedMain] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Started Swagger in 22 ms
+2020-03-11 09:56:51.611  INFO 19592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1583913411611, current=UP, previous=STARTING]
+2020-03-11 09:56:51.613  INFO 19592 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:eacf5c0afda2ab8c5cff9a68ba64a1b6: registering service...
+2020-03-11 09:56:51.817  INFO 19592 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/gateway:eacf5c0afda2ab8c5cff9a68ba64a1b6 - registration status: 204
+2020-03-11 09:56:52.339  INFO 19592 --- [restartedMain] com.isoft.jhipster.gateway.GatewayApp    : Started GatewayApp in 65.082 seconds (JVM running for 72.335)
+2020-03-11 09:56:52.364  INFO 19592 --- [restartedMain] com.isoft.jhipster.gateway.GatewayApp    : 
+----------------------------------------------------------
+	Application 'gateway' is running! Access URLs:
+	Local: 		http://localhost:8180/
+	External: 	http://192.168.1.73:8180/
+	Profile(s): 	[dev, swagger]
+----------------------------------------------------------
+2020-03-11 09:56:52.364  INFO 19592 --- [restartedMain] com.isoft.jhipster.gateway.GatewayApp    : 
+----------------------------------------------------------
+	Config Server: 	Connected to the JHipster Registry config server!
+----------------------------------------------------------
+2020-03-11 09:56:53.614  INFO 19592 --- [hz.gateway.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [127.0.0.1]:13881 [dev] [3.9.4] processors=4, physical.memory.total=15.9G, physical.memory.free=3.5G, swap.space.total=26.7G, swap.space.free=9.7G, heap.memory.used=193.2M, heap.memory.free=1.2G, heap.memory.total=1.4G, heap.memory.max=3.5G, heap.memory.used/total=13.14%, heap.memory.used/max=5.34%, minor.gc.count=14, minor.gc.time=651ms, major.gc.count=3, major.gc.time=990ms, load.process=24.42%, load.system=87.62%, load.systemAverage=n/a thread.count=69, thread.peakCount=70, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2020-03-11 10:01:27.109  INFO 19592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-11 10:06:27.102  INFO 19592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-11 10:09:30.845 DEBUG 19592 --- [XNIO-2 task-1] c.i.j.gateway.aop.logging.LoggingAspect  : Enter: com.isoft.jhipster.gateway.web.rest.AuthResource.authenticate() with argument[s] = [SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ HttpServletRequestImpl [ POST /auth/login ]]], com.codahale.metrics.servlet.AbstractInstrumentedFilter$StatusExposingServletResponse@2e8d9d91, {username=admin, password=admin}]
+2020-03-11 10:09:30.849 DEBUG 19592 --- [XNIO-2 task-1] j.g.s.o.OAuth2TokenEndpointClientAdapter : contacting OAuth2 token endpoint to login user: admin
+2020-03-11 10:09:32.605 DEBUG 19592 --- [XNIO-2 task-1] c.i.j.g.s.oauth2.OAuth2CookieHelper      : creating cookies for domain null
+2020-03-11 10:09:32.606 DEBUG 19592 --- [XNIO-2 task-1] c.i.j.g.s.oauth2.OAuth2CookieHelper      : created access token cookie 'access_token'
+2020-03-11 10:09:32.606 DEBUG 19592 --- [XNIO-2 task-1] c.i.j.g.s.oauth2.OAuth2CookieHelper      : created refresh token cookie 'session_token', age: -1
+2020-03-11 10:09:32.607 DEBUG 19592 --- [XNIO-2 task-1] c.i.j.g.s.o.OAuth2AuthenticationService  : successfully authenticated user admin
+2020-03-11 10:09:32.608 DEBUG 19592 --- [XNIO-2 task-1] c.i.j.gateway.aop.logging.LoggingAspect  : Exit: com.isoft.jhipster.gateway.web.rest.AuthResource.authenticate() with result = <200 OK,eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbIm9wZW5pZCJdLCJleHAiOjE1ODM5MTcxNzIsImlhdCI6MTU4MzkxNDE3MiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfVVNFUiJdLCJqdGkiOiIzMzQyYTRlYS0wZDg2LTQ3OGQtYmM5Ni05OWIwMjkxZmUyYzEiLCJjbGllbnRfaWQiOiJ3ZWJfYXBwIn0.eHTTaJqsFRSm03JikupaIurzcexAhG-H6WPssnrKBLIkQ1lJnD0rnyfLCBt88b3rqVMXapwUOzPYVPPTmxZDsGxriUX2ufe4AlQxGXxdrBkwVnwinZebN9lrtVTNSJazDgyEnAa4Sr2_xS-XZmgBD_ulOnMtVlIcCvTs3cND3gaNtnX3wqu7NlxahNTA73TGM-03PevgMcHB41oS4No50xsy07eNlvW3M54SQiOWooPK7rTVPQPavkW7aV__Y-7tIfNZC0rpQXQpS0BV5WjNa2IHt0yK2XcbUApCtXWKExFmvhTxhAKBBjtoCHLiJlerezPgn--OoIMlocMvXNvBHw,{}>
+2020-03-11 10:09:32.717 DEBUG 19592 --- [XNIO-2 task-2] .i.j.g.c.o.OAuth2JwtAccessTokenConverter : Public key retrieved from OAuth2 server to create SignatureVerifier
+2020-03-11 10:09:32.761 DEBUG 19592 --- [XNIO-2 task-2] c.i.j.g.g.a.AccessControlFilter          : Access Control: allowing access for /uaa/api/account, as no access control policy has been set up for service: uaa
+2020-03-11 10:09:51.609 DEBUG 19592 --- [XNIO-2 task-3] c.i.j.g.g.a.AccessControlFilter          : Access Control: allowing access for /quizmasterservice/api/products, as no access control policy has been set up for service: quizmasterservice
+2020-03-11 10:09:52.855  WARN 19592 --- [XNIO-2 task-3] o.s.c.n.z.filters.post.SendErrorFilter   : Error during filtering
+
+com.netflix.zuul.exception.ZuulException: 
+	at org.springframework.cloud.netflix.zuul.filters.post.SendErrorFilter.findZuulException(SendErrorFilter.java:114)
+	at org.springframework.cloud.netflix.zuul.filters.post.SendErrorFilter.run(SendErrorFilter.java:76)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.error(FilterProcessor.java:105)
+	at com.netflix.zuul.ZuulRunner.error(ZuulRunner.java:112)
+	at com.netflix.zuul.http.ZuulServlet.error(ZuulServlet.java:145)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:83)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:44)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at com.codahale.metrics.servlet.AbstractInstrumentedFilter.doFilter(AbstractInstrumentedFilter.java:111)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:176)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.isoft.jhipster.gateway.web.filter.RefreshTokenFilter.doFilter(RefreshTokenFilter.java:62)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:64)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:336)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-03-11 10:11:27.102  INFO 19592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

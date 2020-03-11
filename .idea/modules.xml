@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/jhipster-uaa.iml" filepath="$PROJECT_DIR$/jhipster-uaa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quiz-master-service/quiz-master-service.iml" filepath="$PROJECT_DIR$/quiz-master-service/quiz-master-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/quotes/quotes.iml" filepath="$PROJECT_DIR$/quotes/quotes.iml" />
       <module fileurl="file://$PROJECT_DIR$/uaa/uaa.iml" filepath="$PROJECT_DIR$/uaa/uaa.iml" />
     </modules>

@@ -32,6 +32,24 @@ public final class SecurityUtils {
                 return null;
             });
     }
+    /**
+     * Get the login of the current user.
+     *
+     * @return the login of the current user
+     */
+    public static Optional<String> getCurrentUserLogin(String userId) {
+        SecurityContext securityContext = SecurityContextHolder.getContext();
+        return Optional.ofNullable(securityContext.getAuthentication())
+            .map(authentication -> {
+                if (authentication.getPrincipal() instanceof UserDetails) {
+                    UserDetails springSecurityUser = (UserDetails) authentication.getPrincipal();
+                    return springSecurityUser.getUsername();
+                } else if (authentication.getPrincipal() instanceof String) {
+                    return (String) userId;
+                }
+                return null;
+            });
+    }
 
     /**
      * Check if a user is authenticated.

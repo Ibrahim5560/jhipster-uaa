@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="quiz-master-service:war">
+    <output-path>$PROJECT_DIR$/quiz-master-service/target</output-path>
+    <root id="archive" name="quiz-master-service-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="quiz-master-service:war exploded" />
+    </root>
+  </artifact>
+</component>

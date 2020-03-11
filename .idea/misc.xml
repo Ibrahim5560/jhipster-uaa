@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/gateway" />
+    <file type="web" url="file://$PROJECT_DIR$/quiz-master-service" />
     <file type="web" url="file://$PROJECT_DIR$/quotes" />
     <file type="web" url="file://$PROJECT_DIR$/uaa" />
   </component>

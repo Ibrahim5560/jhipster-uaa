@@ -8,7 +8,7 @@
     "applicationType": "uaa",
     "baseName": "uaa",
     "packageName": "com.isoft.jhipster.uaa",
-    "packageFolder": "com/baeldung/jhipster/uaa",
+    "packageFolder": "com/isoft/jhipster/uaa",
     "serverPort": "9999",
     "authenticationType": "uaa",
     "cacheProvider": "hazelcast",
