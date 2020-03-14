@@ -105,7 +105,7 @@ public class ProductResource {
     public ResponseEntity<List<ProductDTO>> getAllProducts(ProductCriteria criteria, Pageable pageable) {
         log.debug("REST request to get Products by criteria: {}", criteria);
 
-        UserDTO userDTO = gatewayProxy.getUserDetails(SecurityUtils.getCurrentUserLogin().get());
+        UserDTO userDTO = gatewayProxy.getAccount(SecurityUtils.getCurrentUserLogin().get());
         Page<ProductDTO> page = productQueryService.findByCriteria(criteria, pageable);
         HttpHeaders headers = PaginationUtil.generatePaginationHttpHeaders(ServletUriComponentsBuilder.fromCurrentRequest(), page);
         return ResponseEntity.ok().headers(headers).body(page.getContent());

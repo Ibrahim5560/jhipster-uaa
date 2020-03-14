@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83c1c56e-00e8-4a5c-85f2-d587d675bef4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/products.jh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/products.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/products.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/isoft/jhipster/gateway/feign/uaa/AccoutProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/isoft/jhipster/gateway/service/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/feign/GatewayProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/service/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway.log" beforeDir="false" afterPath="$PROJECT_DIR$/gateway.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/.yo-rc.json" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/.yo-rc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/entity.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/entity.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/navbar/navbar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/global.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/fr/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/fr/global.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/pt-br/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/pt-br/global.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/webpack/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/webpack/webpack.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jhipster-uaa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jhipster-uaa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes.log" beforeDir="false" afterPath="$PROJECT_DIR$/quotes.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes/.yo-rc.json" beforeDir="false" afterPath="$PROJECT_DIR$/quotes/.yo-rc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa.log" beforeDir="false" afterPath="$PROJECT_DIR$/uaa.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/.yo-rc.json" beforeDir="false" afterPath="$PROJECT_DIR$/uaa/.yo-rc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/src/main/java/com/isoft/jhipster/uaa/security/SecurityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/uaa/src/main/java/com/isoft/jhipster/uaa/security/SecurityUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/src/main/java/com/isoft/jhipster/uaa/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/uaa/src/main/java/com/isoft/jhipster/uaa/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/src/main/java/com/isoft/jhipster/uaa/web/rest/AccountResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/uaa/src/main/java/com/isoft/jhipster/uaa/web/rest/AccountResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/web/rest/ProductResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/web/rest/ProductResource.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/gateway/target/" />
@@ -49,38 +20,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProductResource.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProductResource.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/web/rest/ProductResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductResourceIT.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz-master-service/src/test/java/com/isoft/qzm/web/rest/ProductResourceIT.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+              <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/isoft/jhipster/uaa/web/rest/AccountResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="117" column="41" lean-forward="true" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
-            </state>
-          </provider>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/isoft/jhipster/uaa/service/UserService.java">
+      <file leaf-file-name="GatewayProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/feign/GatewayProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="265" column="23" lean-forward="true" selection-start-line="265" selection-start-column="23" selection-end-line="265" selection-end-column="23" />
+            <state relative-caret-position="136">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -88,53 +49,35 @@
       <file leaf-file-name="SecurityUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/isoft/jhipster/uaa/security/SecurityUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+            <state relative-caret-position="340">
+              <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/security/SecurityUtils.java">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/isoft/jhipster/uaa/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="202">
+              <caret line="265" column="36" selection-start-line="265" selection-start-column="36" selection-end-line="265" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UaaSignatureVerifierClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/security/oauth2/UaaSignatureVerifierClient.java">
+      <file leaf-file-name="AccountResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/isoft/jhipster/uaa/web/rest/AccountResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="-121">
+              <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JwtAccessTokenConverter.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.4.0.RELEASE/spring-security-oauth2-2.4.0.RELEASE.jar!/org/springframework/security/oauth2/provider/token/store/JwtAccessTokenConverter.class">
+      <file leaf-file-name="jhipster-uaa.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jhipster-uaa.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="206" selection-start-line="206" selection-end-line="206" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GatewayProxy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/feign/GatewayProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/config/SecurityConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+            <state relative-caret-position="204">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -675,133 +618,12 @@
             <path>
               <item name="jhipster-uaa" type="b2602c69:ProjectViewProjectNode" />
               <item name="jhipster-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz-master-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jhipster-uaa" type="b2602c69:ProjectViewProjectNode" />
               <item name="jhipster-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-uaa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-uaa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-uaa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-uaa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
               <item name="uaa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-uaa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-uaa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-uaa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz-master-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-uaa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz-master-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-uaa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz-master-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-uaa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz-master-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-uaa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz-master-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qzm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-uaa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz-master-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qzm" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-uaa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz-master-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qzm" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-uaa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz-master-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qzm" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -842,7 +664,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.QuizMasterServiceApp">
+  <component name="RunManager" selected="Spring Boot.UaaApp">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -951,18 +773,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78166000" />
+    <option name="totallyTimeSpent" value="78802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" weight="0.329927" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.14966443" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.24161074" />
@@ -970,26 +791,53 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.329927" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4986577" weight="0.329927" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329927" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.329927" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.329927" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.24161074" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.2543624" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.24161074" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329927" />
+      <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.24161074" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.14966443" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Bean Validation" order="4" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.329927" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.329927" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Designer" order="2" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="2" />
@@ -1479,16 +1327,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/client/UaaClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/client/UaaClient.java" />
     <entry file="file://$PROJECT_DIR$/uaa/src/test/java/com/isoft/jhipster/uaa/security/SecurityUtilsUnitTest.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1603,9 +1442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1613,9 +1449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1640,26 +1473,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/feign/GatewayProxyImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/feign/GatewayProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/feign/GatewayProxyImpl.java" />
     <entry file="file://$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/config/SecurityConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -1674,31 +1488,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/web/rest/ProductResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/isoft/jhipster/uaa/security/SecurityUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        <state relative-caret-position="340">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/isoft/jhipster/uaa/web/rest/AccountResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="117" column="41" lean-forward="true" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+        <state relative-caret-position="-121">
+          <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/isoft/jhipster/uaa/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="265" column="23" lean-forward="true" selection-start-line="265" selection-start-column="23" selection-end-line="265" selection-end-column="23" />
+        <state relative-caret-position="202">
+          <caret line="265" column="36" selection-start-line="265" selection-start-column="36" selection-end-line="265" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/feign/GatewayProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz-master-service/src/main/java/com/isoft/qzm/web/rest/ProductResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
